@@ -1,5 +1,5 @@
 """
-CHOPPIES SUPERMARKET — RETAIL ANALYTICS DASHBOARD
+ValueMart Supermarket — RETAIL ANALYTICS DASHBOARD
 CLEAR TEXT COLORS for readability
 Run: streamlit run 03_dashboard.py --server.port 8501
 """
@@ -8,7 +8,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.set_page_config(page_title="Choppies | Dashboard", page_icon="🛒", layout="wide")
+st.set_page_config(page_title="ValueMart | Dashboard", page_icon="🛒", layout="wide")
 
 st.markdown("""
 <style>
@@ -44,7 +44,7 @@ def load():
 txns, rules, promos, stock, cat = load()
 
 with st.sidebar:
-    st.markdown("### 🛒 Choppies Supermarket")
+    st.markdown("### 🛒 ValueMart Supermarket")
     st.markdown("Retail Analytics Dashboard")
     st.markdown("---")
     page = st.radio("Go to", [
@@ -62,7 +62,7 @@ def wchart(fig, h=340):
     return fig
 
 if page == "📊 Sales Overview":
-    st.markdown('<div class="topbar"><h1>🛒 Sales Overview</h1><p>Choppies Supermarket · Full Year Performance</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="topbar"><h1>🛒 Sales Overview</h1><p>ValueMart Supermarket · Full Year Performance</p></div>', unsafe_allow_html=True)
     
     total_rev = txns["final_price"].sum()
     total_txns = txns["transaction_id"].nunique()
@@ -134,4 +134,4 @@ elif page == "📦 Inventory Alerts":
         """, unsafe_allow_html=True)
 
 st.markdown("---")
-st.markdown("<div style='text-align:center;color:#6c757d;font-size:.78rem'>Choppies Supermarket · Unaswi Leonard · 2026</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align:center;color:#6c757d;font-size:.78rem'>ValueMart Supermarket · Unaswi Leonard · 2026</div>", unsafe_allow_html=True)
