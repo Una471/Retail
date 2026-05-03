@@ -1,0 +1,28 @@
+category,product,base_price,stock_level,product_id
+Dairy,Milk 2L,28.5,500,P001
+Dairy,Butter 500g,45.0,200,P002
+Dairy,Cheese 250g,52.0,150,P003
+Dairy,Yogurt 1L,35.0,180,P004
+Bakery,White Bread,12.5,400,P005
+Bakery,Brown Bread,14.0,300,P006
+Bakery,Rolls Pack,18.0,250,P007
+Beverages,Coca Cola 2L,18.5,600,P008
+Beverages,Orange Juice 1L,24.0,300,P009
+Beverages,Water 6pack,22.0,500,P010
+Beverages,Tea Bags 100s,38.0,200,P011
+Snacks,Chips 150g,12.0,350,P012
+Snacks,Biscuits 200g,15.5,280,P013
+Snacks,Chocolate Bar,8.5,400,P014
+Meat,Chicken 1kg,58.0,200,P015
+Meat,Beef Mince 500g,65.0,150,P016
+Meat,Pork Chops 500g,72.0,120,P017
+Fresh Produce,Tomatoes 1kg,18.0,250,P018
+Fresh Produce,Onions 1kg,15.0,300,P019
+Fresh Produce,Potatoes 2kg,22.0,400,P020
+Fresh Produce,Apples 1kg,32.0,200,P021
+Household,Washing Powder 2kg,68.0,180,P022
+Household,Dish Soap 750ml,24.5,220,P023
+Household,Toilet Paper 9pk,42.0,300,P024
+Personal Care,Shampoo 400ml,48.0,150,P025
+Personal Care,Toothpaste,22.0,200,P026
+Personal Care,Soap 3pk,18.5,250,P027

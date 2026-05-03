@@ -1,0 +1,15 @@
+antecedents,consequents,support,confidence,lift
+Shampoo 400ml,Soap 3pk,0.0465,0.3362,2.44
+Chips 150g,Coca Cola 2L,0.046,0.331,2.38
+Dish Soap 750ml,Washing Powder 2kg,0.0456,0.3292,2.37
+Chicken 1kg,Tomatoes 1kg,0.0456,0.3268,2.35
+Biscuits 200g,Tea Bags 100s,0.0385,0.2935,2.11
+Chicken 1kg,Onions 1kg,0.0382,0.2733,2.06
+Onions 1kg,Tomatoes 1kg,0.0379,0.2855,2.06
+Milk 2L,Tea Bags 100s,0.0511,0.2528,1.82
+Cheese 250g,White Bread,0.0428,0.312,1.81
+Butter 500g,Cheese 250g,0.0424,0.2463,1.8
+Butter 500g,White Bread,0.0516,0.2998,1.74
+Biscuits 200g,Milk 2L,0.043,0.3271,1.62
+Butter 500g,Milk 2L,0.0515,0.2992,1.48
+Milk 2L,White Bread,0.0499,0.2468,1.43

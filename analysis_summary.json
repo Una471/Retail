@@ -1,0 +1,8 @@
+{
+  "total_revenue": 8176323.47,
+  "baseline_daily_revenue": 21562.43450479233,
+  "avg_promo_lift_pct": 28.287718787606607,
+  "association_rules_found": 14,
+  "items_at_stockout_risk": 8,
+  "stockout_reduction_pct": 18
+}
