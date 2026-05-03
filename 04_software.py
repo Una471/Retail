@@ -1,11 +1,11 @@
 """
-CHOPPIES — RETAIL MANAGEMENT SYSTEM
+ValueMart — RETAIL MANAGEMENT SYSTEM
 Reorder alerts + shelf placement recommendations
 """
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Choppies | System", page_icon="🛒", layout="wide")
+st.set_page_config(page_title="ValueMart | System", page_icon="🛒", layout="wide")
 
 st.markdown("""<style>
 html,body{font-family:Inter,sans-serif;background:#f8f9fa;color:#212529;}
