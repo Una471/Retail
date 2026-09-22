@@ -5,6 +5,13 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 
+# Respect report links even when Streamlit Cloud starts this file directly.
+if st.query_params.get("view") == "dashboard":
+    import runpy
+    from pathlib import Path
+    runpy.run_path(str(Path(__file__).resolve().parent / "03_dashboard.py"), run_name="__main__")
+    st.stop()
+
 BASE_DIR = Path(__file__).resolve().parent
 
 st.markdown("""<style>
